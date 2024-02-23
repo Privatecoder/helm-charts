@@ -44,6 +44,12 @@ operator:
 
   securityContext: {}
 
+  # nodeSelector for the operator pod
+  nodeSelector: {}
+
+  # tolerations for the operator pod
+  tolerations: []
+
 ## Operator's database
 database:
   name: mongodb-database
